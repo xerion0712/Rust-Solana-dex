@@ -1,0 +1,41 @@
+dist: bionic
+language: shell
+os: linux
+
+_defaults: &defaults
+  cache: false
+  services:
+    - docker
+  before_install:
+    - scripts/travis/run-docker.sh
+  install:
+    - mkdir -p bin && ./bpf-sdk-install.sh bin
+  before_cache:
+    - scripts/travis/stop-docker.sh
+
+_localnet: &localnet
+  language: node_js
+  node_js:
+    - 14
+  before_script:
+    - sudo apt-get install -y pkg-config build-essential libudev-dev
+    - sh -c "$(curl -sSfL https://release.solana.com/v1.6.9/install)"
+    - export PATH="/home/travis/.local/share/solana/install/active_release/bin:$PATH"
+
+jobs:
+  include:
+    - <<: *defaults
+      name: Dex unit tests
+      script:
+        - docker exec dev ./do.sh test dex
+    - <<: *defaults
+      name: Dex integration tests
+      <<: *localnet
+      script:
+        - docker exec dev ./scripts/travis/dex-tests.sh
+    - <<: *defaults
+      name: Fmt and Common Tests
+      script:
+        - docker exec dev cargo build
+        - docker exec dev cargo fmt -- --check
+        - docker exec -w=/workdir/common dev cargo test --features client,strict
