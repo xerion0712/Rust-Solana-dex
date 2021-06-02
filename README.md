@@ -1,10 +1,10 @@
 <div align="center">
   <img height="170" src="https://avatars.githubusercontent.com/u/81713343?s=200&v=4?raw=true" />
 
-  <h1>serum-dex</h1>
+  <h1>dvst-dex</h1>
 
   <p>
-    <strong>DVSTRust Monorepo</strong>
+    <strong>DVST Rust Monorepo</strong>
   </p>
 
   
