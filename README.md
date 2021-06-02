@@ -1,16 +1,10 @@
 <div align="center">
-  <img height="170" src="http://github.com/project-serum/awesome-serum/blob/master/logo-serum.png?raw=true" />
+  <img height="170" src="https://avatars.githubusercontent.com/u/81713343?s=200&v=4?raw=true" />
 
   <h1>serum-dex</h1>
 
   <p>
-    <strong>Project Serum Rust Monorepo</strong>
-  </p>
-
-  <p>
-    <a href="https://travis-ci.com/project-serum/serum-dex"><img alt="Build Status" src="https://travis-ci.com/project-serum/serum-dex.svg?branch=master" /></a>
-    <a href="https://discord.com/channels/739225212658122886"><img alt="Discord Chat" src="https://img.shields.io/discord/739225212658122886?color=blueviolet" /></a>
-    <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/github/license/project-serum/serum-dex?color=blue" /></a>
+    <strong>DVSTRust Monorepo</strong>
   </p>
 
   
