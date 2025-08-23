@@ -1,28 +1,4 @@
-<div align="center">
-  <img height="170" src="https://avatars.githubusercontent.com/u/81713343?s=200&v=4?raw=true" alt="DVST Logo" />
 
-  <h1>DVST DEX</h1>
-
-  <p>
-    <strong>A high-performance decentralized exchange built on Solana blockchain</strong>
-  </p>
-
-  <p>
-    <a href="#program-deployments">Deployments</a> •
-    <a href="#features">Features</a> •
-    <a href="#getting-started">Getting Started</a> •
-    <a href="#contributing">Contributing</a>
-  </p>
-
-  <div>
-    <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
-    <img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white" alt="Solana" />
-    <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge" alt="License" />
-    <img src="https://img.shields.io/badge/Status-Active%20Development-green.svg?style=for-the-badge" alt="Status" />
-  </div>
-</div>
-
----
 
 ## Features
 
