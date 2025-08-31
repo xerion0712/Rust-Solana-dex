@@ -129,19 +129,3 @@ We welcome contributions! Please see our contributing guidelines:
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-- Built on the Solana blockchain
-- Inspired by the Serum DEX architecture
-- Community contributors and maintainers
-
----
-
-<div align="center">
-  <p>Made with ❤️ by the DVST team</p>
-  <p>
-    <a href="https://github.com/your-username/Rust-Solana-dex/issues">Report Bug</a> •
-    <a href="https://github.com/your-username/Rust-Solana-dex/discussions">Request Feature</a> •
-    <a href="https://github.com/your-username/Rust-Solana-dex/blob/main/CHANGELOG.md">Changelog</a>
-  </p>
-</div>
